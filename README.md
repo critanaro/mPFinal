@@ -1,5 +1,5 @@
-# MousePass
-Protecting your information one click at a time
+# MousePass DEV EDITION
+Creating 'Protecting your information one click at a time' one development at a time.
 
 ## How to run the test
 
