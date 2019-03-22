@@ -3,7 +3,7 @@ Creating 'Protecting your information one click at a time' one development at a 
 
 ## How to run the app
 
-- Download and extract Zip File. 
+- Clone repository onto desktop or some known location.
 - Open Terminal and CD to the file location. 
 - Install tensorflow using a virtual environment (venv) for Python 2.7 following the instructions here: https://www.tensorflow.org/install/pip?lang=python2
 - There should now be a newly created folder named "venv" within the file location.
