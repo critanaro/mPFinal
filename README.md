@@ -9,8 +9,8 @@ Creating 'Protecting your information one click at a time' one development at a 
 - There should now be a newly created folder named "venv" within the file location.
 - Run the java file within the "src" folder using eclipse (or ide of your choice).
 ### NOTE
-- Don't push changes to this repository after installing venv: the file is too big to be accepted to Github. 
-- Only push the training data.
+- Don't push changes directly to this repository after installing venv: the file is too big to be accepted to Github. Only push the training data.
+  - So you may copy the repository destination into a different file on your computer, make all the modifications, copy the training data back into the repository destination, and push the file with only the training data added.
 
 ## Ideology
 
