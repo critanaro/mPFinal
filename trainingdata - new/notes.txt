@@ -1,0 +1,5 @@
+notes about the total csvs - each have 35 left correct entries, followed by 35 left intruder entries. Each entry has 400 values.
+
+The correct entries were quick and confident swipes to the correct answers
+
+Incorrect entries had random pauses, longer waits before beginning, longer pauses over the button before pressing, and non linear paths to the answer.

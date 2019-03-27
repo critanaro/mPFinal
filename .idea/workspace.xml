@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8fdcd49-8aad-4738-98a4-e3b121d1f533" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/did_it_work3" beforeDir="false" afterPath="$PROJECT_DIR$/did_it_work3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder5.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MousePass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="-4358">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MousePass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="-4358">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
