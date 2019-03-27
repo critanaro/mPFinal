@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8fdcd49-8aad-4738-98a4-e3b121d1f533" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftcorrect5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/leftintruder5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mPFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mPFinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mouspass_create_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouspass_create_weights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/printfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/5falseexamples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/5trueexamples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/basictutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/cp.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/cp.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/exampletes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/exampletest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/final csv negative.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/final csv positive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/final csv.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/inputdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/inputdata7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/inputdata7true.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_1/trainingdatafinal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/lefttotal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middletotal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/righttotal.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +44,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MousePass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4358">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="292">
+              <caret line="325" column="10" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,18 +70,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mouspass_create_weights.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="987" />
+    <option name="x" value="593" />
+    <option name="y" value="242" />
+    <option name="width" value="2014" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,8 +104,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,13 +128,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.mouspass_create_weights">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MousePass" />
       <module name="mPFinal" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="mouspass_create_weights" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mPFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mouspass_create_weights.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -106,10 +172,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="43" width="1400" height="987" extended-state="0" />
-    <editor active="true" />
+    <frame x="525" y="268" width="2014" height="1027" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13447064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -118,7 +183,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -127,6 +192,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -138,20 +205,109 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inputdata.csv">
+    <entry file="file://$PROJECT_DIR$/inputdata.csv" />
+    <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41542" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MousePass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4358">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="825">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MousePass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="325" column="10" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mPFinal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
