@@ -34,7 +34,7 @@ with open('inputdata.csv') as csvfile:
 
 
 #print(masterlist)
-saved_model_path = "training_1/cp.ckpt"
+saved_model_path = "training/cp.ckpt"
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(lengthofoneq, 2)),
     keras.layers.Dense(128, activation=tf.nn.relu),
@@ -56,10 +56,11 @@ for i in range(0,7):
     masterlistq = masterlist[i]
     img = (np.expand_dims(masterlistq, 0))
     predictions_single = model.predict(img)
-    #print(predictions_single)
+    print(predictions_single)
     x = np.argmax(predictions_single[0])
-    #print(x)
-    counter2 += x
+    print(x)
+    if (x % 2) == 0:
+        counter2 += 1
 if counter2 >= 4:
     f.write("True")
 else:

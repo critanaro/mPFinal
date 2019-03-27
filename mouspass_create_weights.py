@@ -107,7 +107,7 @@ train_images = masterlist
 test_images = masterlisttest
 #test_images = masterlist
 #test_labels = train_labels
-test_labels = np.array([0,1,0,1,0,1,0,2,3,2,3,2,3,2,4,5,4,5,4,5›])
+test_labels = np.array([0,1,0,1,0,1,0,2,3,2,3,2,3,2,4,5,4,5,4,5])
 
 #print (train_images)
 #print (test_images)
