@@ -2,38 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8fdcd49-8aad-4738-98a4-e3b121d1f533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lefttotal.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mPFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mPFinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middletotal.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mouspass_create_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouspass_create_weights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mPFinal/MousePass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/5falseexamples.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/5trueexamples.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/basictutorial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/cp.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/cp.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/exampletes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/exampletest.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/final csv negative.numbers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/final csv positive.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/final csv.numbers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/inputdata.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/inputdata7.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/inputdata7true.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/testing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_1/trainingdatafinal.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/lefttotal.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/middletotal.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingdata - new/righttotal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/righttotal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdataleft.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdatamiddle.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdataright.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/cp.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/cp.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/5falseexamples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/5trueexamples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/basictutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/exampletes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/exampletest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/final csv negative.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/final csv positive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/final csv.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/inputdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/inputdata7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/inputdata7true.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_left/old/trainingdatafinal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_middle/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_middle/cp.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_middle/cp.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_right/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_right/cp.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_right/cp.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftcorrect1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftcorrect2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftcorrect3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftcorrect4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftcorrect5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftintruder1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftintruder2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftintruder3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftintruder4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/left/leftintruder5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middlecorrect1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middlecorrect2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middlecorrect3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middlecorrect4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middlecorrect5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middleintruder1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middleintruder2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middleintruder3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middleintruder4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/middle/middleintruder5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightcorrect1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightcorrect2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightcorrect3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightcorrect4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightcorrect5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightintruder1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightintruder2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightintruder3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightintruder4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingdata - new/right/rightintruder5.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,20 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MousePass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="325" column="10" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="206">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -78,10 +100,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="593" />
-    <option name="y" value="242" />
-    <option name="width" value="2014" />
-    <option name="height" value="1027" />
+    <option name="x" value="746" />
+    <option name="y" value="211" />
+    <option name="width" value="1526" />
+    <option name="height" value="1137" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -172,9 +194,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="268" width="2014" height="1027" extended-state="0" />
+    <frame x="746" y="211" width="1526" height="1137" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13447064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1780731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -183,7 +205,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35321528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,20 +228,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inputdata.csv" />
-    <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
+    <entry file="file://$PROJECT_DIR$/src/MousePass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="319">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MousePass.java">
+    <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="325" column="10" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
+        <state relative-caret-position="206">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

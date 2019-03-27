@@ -1,22 +1,31 @@
 import os
 import csv
+import pydot
+import graphviz
 # TensorFlow and tf.keras
 import tensorflow as tf
 from tensorflow import keras
+
+from keras.utils.vis_utils import plot_model
 #model selection
-model = 'middle'
-if model == 'left':
-    filename = 'lefttotal.csv'
-    checkname = 'training_left/cp.ckpt'
-    testname = 'testdataleft.csv'
-if model == 'middle':
-    filename = 'middletotal.csv'
-    checkname = 'training_middle/cp.ckpt'
-    testname = 'testdatamiddle.csv'
-if model == 'right':
-    filename = 'righttotal.csv'
-    checkname = 'training_right/cp.ckpt'
-    testname = 'testdataright.csv'
+# model = 'middle'
+# if model == 'left':
+#     filename = 'lefttotal.csv'
+#     checkname = 'training_left/cp.ckpt'
+#     testname = 'testdataleft.csv'
+# if model == 'middle':
+#     filename = 'middletotal.csv'
+#     checkname = 'training_middle/cp.ckpt'
+#     testname = 'testdatamiddle.csv'
+# if model == 'right':
+#     filename = 'righttotal.csv'
+#     checkname = 'training_right/cp.ckpt'
+#     testname = 'testdataright.csv'
+
+filename = 'total.csv'
+checkname = 'training/cp.ckpt'
+testname = 'testdata.csv'
+
 lengthofoneq = 400#10,000
 with open(filename) as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
@@ -56,18 +65,52 @@ print(tf.__version__)
 #fashion_mnist = keras.datasets.fashion_mnist
 #(train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
+list = []
+for i in range(400):
+    #print "i",i,"list",list
+    if i <= 34:
+        list.append(0)
+    elif i <= 69:
+        list.append(1)
+    elif i <= 104:
+        list.append(2)
+    elif i <= 139:
+        list.append(3)
+    elif i <= 174:
+        list.append(4)
+    elif i <= 208:
+        list.append(5)
+#print list
+
+# listtest = []
+# for i in range(400):
+#     #print "i",i,"list",list
+#     if i <= 5:
+#         listtest.append(0)
+#     elif i <= 11:
+#         listtest.append(1)
+#     elif i <= 17:
+#         listtest.append(2)
+#     elif i <= 23:
+#         listtest.append(3)
+#     elif i <= 29:
+#         listtest.append(4)
+#     elif i <= 35:
+#         listtest.append(5)
+# print listtest
 
 #Import the DataSet
 #train_images = masterlist
-train_labels = np.array([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0, 0])
+train_labels = np.array(list)
 train_images = masterlist
 #train_labels = np.array([1,1,0,0])
 test_images = masterlisttest
 #test_images = masterlist
 #test_labels = train_labels
-test_labels = np.array([0,1,0,1,0,1])
-print (train_images)
-print (test_images)
+test_labels = np.array([0,1,0,1,0,1,0,2,3,2,3,2,3,2,4,5,4,5,4,5›])
+
+#print (train_images)
+#print (test_images)
 # train_images = [[(0,0),(0,0),(1,2),(3,4),(6,7),(9,11),(0,0)],[(0,0),(6,5),(3,4),(7,6),(10,4),(9,13),(0,0)]]
 train_images = np.asarray(train_images)
 # test_images = [[(0,0),(0,0),(1,2),(3,4),(6,7),(9,11),(0,0)],[(0,1),(0,0),(1,2),(3,5),(6,7),(10,11),(0,0)]]
@@ -98,7 +141,7 @@ class_names = ['True','False']
 model = tf.keras.models.Sequential([
 	keras.layers.Flatten(input_shape=(lengthofoneq, 2)),
 	keras.layers.Dense(1280, activation=tf.nn.relu),
-	keras.layers.Dense(2, activation=tf.nn.softmax)
+	keras.layers.Dense(6, activation=tf.nn.softmax)
 	])
 
 model.compile(optimizer='adam',
@@ -150,3 +193,4 @@ print(predictions_single)
 x = np.argmax(predictions_single[0])
 print(x)
 
+plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True);
