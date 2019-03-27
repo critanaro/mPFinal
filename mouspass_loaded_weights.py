@@ -62,9 +62,9 @@ for i in range(0,7):
     if (x % 2) == 0:
         counter2 += 1
 if counter2 >= 4:
-    f.write("True")
+    f.write("true")
 else:
-    f.write("False")
+    f.write("false")
 f.close()
 
 

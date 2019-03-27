@@ -330,12 +330,19 @@ public class MousePass extends JFrame implements ActionListener {
         */
         labelQuestion.setText("Processing...");
         labelInstr.setText("");
-        
+
         while(file.exists() == false) { //check again until found new file
+            //System.out.println("exists: " + file.exists());
         }
+        //Thread.sleep(100);
         BufferedReader br = new BufferedReader(new FileReader("printfile.txt"));
-        
-        boolean read_from_printfile = Boolean.parseBoolean(br.readLine());
+        String bread = br.readLine();
+        while(bread == null){
+            bread = br.readLine();
+        }
+        System.out.println("br readline: " + bread);
+        //boolean read_from_printfile = Boolean.parseBoolean(br.readLine());
+        boolean read_from_printfile = Boolean.valueOf(bread);
         System.out.println("read_from_printfile: " + read_from_printfile);
 
         JLabel labelAcc = new JLabel("Michael Sprintson's Account", JLabel.CENTER);

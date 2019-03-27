@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c8fdcd49-8aad-4738-98a4-e3b121d1f533" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mPFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mPFinal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/model_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouspass_create_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouspass_create_weights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mouspass_loaded_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouspass_loaded_weights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/cp.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/training/cp.ckpt.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/cp.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/training/cp.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/MousePass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/MousePass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/printfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MousePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MousePass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +19,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MousePass.java">
+        <entry file="file://$PROJECT_DIR$/mouspass_create_weights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
+            <state relative-caret-position="367">
+              <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_plot.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/mouspass_loaded_weights.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,22 +52,21 @@
       <list>
         <option value="$PROJECT_DIR$/mouspass_create_weights.py" />
         <option value="$PROJECT_DIR$/mouspass_loaded_weights.py" />
+        <option value="$PROJECT_DIR$/src/MousePass.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1531" />
-    <option name="y" value="203" />
-    <option name="width" value="1669" />
-    <option name="height" value="1141" />
+    <option name="x" value="1152" />
+    <option name="y" value="23" />
+    <option name="width" value="1158" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,9 +84,12 @@
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553722588754" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -100,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Python.mouspass_create_weights">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MousePass" />
       <module name="mPFinal" />
@@ -165,10 +173,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1531" y="203" width="1669" height="1027" extended-state="0" />
+    <frame x="1006" y="268" width="1311" height="1137" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26121697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20775194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -177,15 +185,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35321528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32981133" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -200,13 +208,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inputdata.csv" />
+    <entry file="file://$PROJECT_DIR$/mouspass_loaded_weights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model_plot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MousePass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
+        <state relative-caret-position="547">
+          <caret line="337" column="13" lean-forward="true" selection-start-line="337" selection-start-column="13" selection-end-line="337" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -219,16 +237,6 @@
           <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mouspass_loaded_weights.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
