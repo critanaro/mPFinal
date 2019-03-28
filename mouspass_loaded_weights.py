@@ -4,9 +4,9 @@ import tensorflow as tf
 import numpy as np
 from tensorflow import keras
 
-with open("did_it_work3", "w") as f:
-    f.write("yeehaw")
-    f.write(sys.version)
+# with open("did_it_work3", "w") as f:
+#     f.write("yeehaw")
+#     f.write(sys.version)
 lengthofoneq = 400#10,000
 lengthtotal = 2000#50,000
 ### IMPORT FROM CSV
@@ -61,10 +61,13 @@ for i in range(0,7):
     print(x)
     if (x % 2) == 0:
         counter2 += 1
-if counter2 >= 4:
+        print "good kid mad city"
+if counter2 >= 5:
     f.write("true")
+    print ("true")
 else:
     f.write("false")
+    print ("false")
 f.close()
 
 
