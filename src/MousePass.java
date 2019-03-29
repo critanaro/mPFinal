@@ -35,7 +35,7 @@ public class MousePass extends JFrame implements ActionListener {
         f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         // Add starting text
-        JLabel labelDesc = new JLabel("             We at Charles Schwab have implemented some safety measures to help "
+        JLabel labelDesc = new JLabel("             We at MousePass have implemented some safety measures to help "
                 + "protect your account.", JLabel.CENTER);
         labelDesc.setFont(new Font("Arial", Font.PLAIN, 20));
         labelDesc.setSize(1100, 200);

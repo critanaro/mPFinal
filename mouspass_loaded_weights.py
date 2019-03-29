@@ -56,12 +56,24 @@ for i in range(0,7):
     masterlistq = masterlist[i]
     img = (np.expand_dims(masterlistq, 0))
     predictions_single = model.predict(img)
-    print(predictions_single)
+    #print(predictions_single)
     x = np.argmax(predictions_single[0])
-    print(x)
+    #print(x)
+    if (x == 0):
+        print "left confident"
+    if (x == 1):
+        print "left intruder"
+    if (x == 2):
+        print "middle confident"
+    if (x == 3):
+        print "middle intruder"
+    if (x == 4):
+        print "right confident"
+    if (x == 5):
+        print "right intruder"
     if (x % 2) == 0:
         counter2 += 1
-        print "good kid mad city"
+       # print "good kid mad city"
 if counter2 >= 5:
     f.write("true")
     print ("true")
