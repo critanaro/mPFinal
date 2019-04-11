@@ -17,7 +17,7 @@ public class MousePass extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 1L;
 	static int numQuestions = 20;
     static Random rand = new Random();
-    static int numAsk = 5;
+    static int numAsk = 1;
     static long time = 0;
     static int count = -1;
     static boolean exit = false;
@@ -39,7 +39,7 @@ public class MousePass extends JFrame implements ActionListener {
                 + "protect your account.", JLabel.CENTER);
         labelDesc.setFont(new Font("Arial", Font.PLAIN, 20));
         labelDesc.setSize(1100, 200);
-        labelDesc.setLocation(50, 0);
+        labelDesc.setLocation(35, 0);
         f.add(labelDesc);
 
         JLabel labelDesc2 = new JLabel("               Please answer the following short security questions "
@@ -369,10 +369,10 @@ public class MousePass extends JFrame implements ActionListener {
         labelAcc4.setLocation(40, 150);
         f.add(labelAcc4);
 
-        JLabel labelAcc5 = new JLabel("Recent transactions: TAMUhack Registration: FREE!!!", JLabel.CENTER);
+        JLabel labelAcc5 = new JLabel("Recent transactions: Engineering Design Showcase Registration: FREE!!!", JLabel.CENTER);
         labelAcc5.setFont(new Font("Arial", Font.PLAIN, 20));
-        labelAcc5.setSize(500, 200);
-        labelAcc5.setLocation(65, 200);
+        labelAcc5.setSize(1000, 200);
+        labelAcc5.setLocation(-100, 200);
         f.add(labelAcc5);
 
         JLabel labelAcc6 = new JLabel("Instant Ramen 48-pack: $13", JLabel.CENTER);

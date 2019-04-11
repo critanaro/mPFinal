@@ -51,7 +51,7 @@ model.load_weights(saved_model_path)
 
 f = open('printfile.txt', 'w')
 counter2 = 0
-for i in range(0,7):
+for i in range(0,3):
     #print (i)
     masterlistq = masterlist[i]
     img = (np.expand_dims(masterlistq, 0))
@@ -74,7 +74,7 @@ for i in range(0,7):
     if (x % 2) == 0:
         counter2 += 1
        # print "good kid mad city"
-if counter2 >= 5:
+if counter2 >= 2:
     f.write("true")
     print ("true")
 else:
